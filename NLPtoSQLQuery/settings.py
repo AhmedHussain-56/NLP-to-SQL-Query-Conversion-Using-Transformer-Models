@@ -28,6 +28,12 @@ DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.onrender.com']
 
+# CSRF trusted origins for Django 4.0+
+CSRF_TRUSTED_ORIGINS = [
+    'https://nlp-to-sql-query.onrender.com',
+    'https://*.onrender.com',
+]
+
 
 # Application definition
 
