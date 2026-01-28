@@ -21,6 +21,6 @@ services:
       - key: PYTHON_VERSION
         value: 3.11.4
       - key: DEBUG
-        value: "False"
+        value: "True"
       - key: GROQ_API_KEY
         sync: false # You'll set this manually in Render dashboard
